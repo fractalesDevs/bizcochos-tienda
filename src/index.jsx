@@ -1,6 +1,7 @@
 import { useFonts } from 'expo-font';
 import { View, ActivityIndicator } from 'react-native';
 
+import AppNavigator from './navigation';
 import { Products } from './screens/index';
 import { styles } from './styles';
 
@@ -17,7 +18,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Products />
+      <AppNavigator />
     </View>
   );
 }
