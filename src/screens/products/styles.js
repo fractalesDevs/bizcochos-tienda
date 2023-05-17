@@ -9,5 +9,6 @@ export const styles = StyleSheet.create({
   },
   texto: {
     fontSize: 35,
+    fontFamily: 'Montserrat-Bold',
   },
 });
